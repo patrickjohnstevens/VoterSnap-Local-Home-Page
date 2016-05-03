@@ -1,0 +1,529 @@
+/*
+ Theme Name:   votersnap-wp-theme-child
+ Theme URI:    http://underscores.me/
+ Description:  votersnap-wp-theme-child
+ Author:       Underscores.me
+ Author URI:   http://underscores.me/
+ Template:     votersnap-wp-theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         
+ Text Domain:  votersnap-wp-theme
+*/
+
+
+html {
+  margin: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+.nav {
+  background-color: rgb(77, 77, 77);
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;  
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(97, 97, 97, 0.6);
+  transition: all 0.3s ease 0s;
+}
+
+.nav li {
+  display: inline;
+  border-radius: 4px;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.nav ul {
+  text-align: right;
+  width: 100%;
+  margin: 0px;
+}
+
+.nav ul li:nth-child(5) {
+  border: 1px solid #FFF;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.nav ul li:nth-child(5):hover {
+  border: 1px solid #FF8C00;
+  padding: 13px 10px 13px 10px;
+  border-radius: 4px;
+  margin-right: 20px;
+  background-color: rgb(97, 97, 97);
+  transition: all 0.3s ease 0s;
+} 
+
+.nav ul li:nth-child(7) {
+  border: 1px solid #FFF;
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.nav ul li:nth-child(7):hover {
+  color: #f7f5f2;
+  border: 1px solid #FF8C00;
+  padding: 13px 10px 13px 10px;
+  border-radius: 4px;
+  margin-right: 20px;
+  background-color: rgb(97, 97, 97);
+  transition: all 0.3s ease 0s;
+} 
+
+section#js-off-canvas {
+    position: absolute;
+    left: 0;
+    top: 99px;
+    background: rgba(215, 88, 24, 0.9);
+    width: 100%;
+    display: none;
+    text-decoration: none;
+}
+
+.off-canvas-nav {
+  color: #fff;
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+}
+
+.off-canvas-nav-item a {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 24px;
+  padding: 13px 30px 13px 30px;
+  border-radius: 4px;
+  font-weight: bold;  
+  text-decoration: none;
+}
+
+.off-canvas-nav a:hover {
+  font-family: 'Montserrat', sans-serif;  
+  color: rgb(200, 200, 200);
+  font-size: 24px;
+  border-radius: 4px;
+  font-weight: bold;  
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {#menu {
+  display: none;
+}}
+
+@media screen and (min-width: 800px) {#signup_menu {
+  display: none;
+}}
+
+@media screen and (max-width: 799px) {#mobile {
+  display: none;
+}}
+
+.jumbotron {
+  background-color: #fff;
+  background-image: url('votersnap-logo-transparent.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 770px;
+  width: auto;
+  margin-top: -40px;
+}
+
+.jumbotron h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 58px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  padding-top: 120px;
+}
+
+.jumbotron a {
+  font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 20px;
+  border: 1px solid #fff;
+  padding: 10px 30px 10px 30px;
+  background-color: rgb(77, 77, 77);
+  border-radius: 4px;
+}
+
+.jumbotron a:hover {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 1px solid #FF8C00;
+  padding: 15px 30px 15px 30px;
+  background-color: rgb(97, 97, 97);
+  transition: all 0.3s ease 0s;
+  border-radius: 4px;
+}
+
+.blogtron {
+  background-color: #fff;
+  background-image: url('votersnap-logo-transparent.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 770px;
+  width: auto;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.blogtron a {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid rgb(97, 97, 97);
+  padding: 10px 30px 10px 30px;
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 4px;
+}
+
+.blogtron a:hover {
+  color: #FF8C00;
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid #FF8C00;
+  text-decoration: none;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(250, 250, 250, 0.8);
+  transition: all 0.3s ease 0s;
+  border-radius: 4px;
+}
+
+.voter-shots {
+  background-color: #fff;
+  border-top: 1px solid rgb(77, 77, 77);
+}
+
+.voter-shots h2 {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  text-align: center;
+  color: rgb(77, 77, 77);
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.flex-container { 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+  border-style: solid;
+  border-width: 0px;
+  margin-bottom: 10px;
+}
+   
+.flex-item {
+  list-style: none;
+  width: 450px;
+  margin: 0 2px;
+  font-weight: bold;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}  
+  
+.flex-item  img { 
+    width: 100%;
+    display: block;
+}
+
+.flex-item  p { 
+ margin-top: 5px;
+}
+
+.learn-more {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 120px;
+  border-top: 1px solid #000;
+}
+
+.learn-more h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: rgb(77, 77, 77);
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.learn-more p {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 799px) {.learn-more p{
+  margin-left: 4%;
+  margin-right: 4%;
+}}
+
+@media screen and (min-width: 800px) {.learn-more p{
+  margin-right: 25%;
+  margin-left: 25%;
+}}
+
+.learn-more a {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 15px 15px 15px 15px;
+  border-radius: 4px;
+  background-color: rgb(77, 77, 77);
+}
+
+.learn-more a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #FF8C00;
+  padding: 20px 15px 20px 15px;
+  border-radius: 4px;
+  background-color: rgb(97, 97, 97);
+  transition: all 0.3s ease 0s;
+
+}
+
+.footer {
+  background-color: rgb(77, 77, 77);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer a {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(200, 200, 200);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul {
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+  margin-right: 170px;
+}
+
+
+.footer_mobile {
+  background-color: rgb(77, 77, 77);
+  height: 400px;
+  margin-bottom: 
+}
+
+.footer_mobile a {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 15px 15px 0;
+  text-decoration: none;
+}
+
+.footer_mobile a:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(200, 200, 200);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.footer_mobile ul li {
+  display: block;
+  margin-top: 20px;
+
+}
+
+.footer_mobile ul {
+  text-align: left;
+  width: 100%;
+  height: auto;
+}
+
+#mobile_footer_logo {
+  padding: 20px 20px 20px 20px;
+}
+
+@media screen and (max-width: 799px) {.footer{
+  display: none;
+}}
+
+@media screen and (min-width: 800px) {.footer_mobile{
+  display:none;
+}}
+
+#copyright {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(77, 77, 77);
+  text-align: center;
+  font-size: 8px; 
+  margin-top: 25px;
+  margin-right: 40px;
+  color: #f7f5f2;
+}
+
+.aboutus {
+  height: auto;
+  width: 100%;  
+  background-color: #fff;
+}
+
+.Meet-The-Team {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 3em; 
+  text-align: center;
+  padding: 0px;
+  border-bottom: 1px solid rgba(77, 77, 77, 0.2);
+}
+
+.one-flex-container {
+  background color: rgba(0, 0, 0, 0.6);
+  text-align: center; 
+  margin-bottom: 40px;
+}
+
+.two-flex-container {
+  background color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.three-flex-container {
+  background color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 40px;
+}
+ 
+#Pics {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 5px;
+  background-color: #fff;
+}
+
+.product-vote {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#Product-Pics {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  
+}
+
+#Team-Member-Name {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 2em;
+  padding: 10px;
+}
+
+#Team-Member-About {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(77, 77, 77);
+  font-size: 16px;
+}
+
+#Twitter {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 68, 255);
+
+}
+
+#Twitter:hover {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF8C00;
+}
+
+@media screen and (max-width: 799px) {#Team-Member-About{
+  margin-left: 5%;
+  margin-right: 5%;
+}}
+
+@media screen and (min-width: 800px) {#Team-Member-About{
+  margin-right: 10%;
+  margin-left: 10%;
+}}
+
+#Twitter-Handle {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 40px;
+}
+
+#Vote {
+  font-family: 'Montserrat', sans-serif;
+  color: color: rgb(77, 77, 77);
+  padding: 10px;
+}
+
+
+/* CHECK THIS OUT! */
+
+
